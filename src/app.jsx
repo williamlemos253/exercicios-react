@@ -4,6 +4,8 @@ import Primeiro from './components/basicos/Primeiro'
 import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 
+import ListaAlunos from './components/repeticao/ListaAlunos'
+
 import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from './components/basicos/Aleatorio'
@@ -15,6 +17,10 @@ export default props => {
         <div id="app" className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+
+                <Card titulo="Repetição" color="blue">
+                  <ListaAlunos></ListaAlunos>
+                </Card>
 
                 <Card titulo="Componentes com Filhos" color="green">
                     <Familia sobrenome="Ferreira">
