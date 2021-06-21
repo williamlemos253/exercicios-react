@@ -23,7 +23,7 @@ export default props => {
                     <Primeiro></Primeiro>
                 </Card>
 
-                <Card titulo="Exercício Paramêtros">
+                <Card titulo="Exercício Paramêtros" color="pink">
                     <ComParametro
                         titulo="Situação do Aluno"
                         aluno="Pedro Legal"
