@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 import Primeiro from './components/basicos/Primeiro'
 
@@ -8,6 +9,7 @@ import ListaAlunos from './components/repeticao/ListaAlunos'
 
 import ListaProdutos from './components/repeticao/ListaProdutos'
 import ParOuImpar from './components/basicos/ParOuImpar'
+import Input from './components/formulario/Input'
 
 
 import ComParametro from './components/basicos/ComParametro'
@@ -21,6 +23,11 @@ export default props => {
         <div id="app" className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+
+
+                <Card titulo="Input controlado" color="#7y21">
+                    <Input></Input>
+                </Card>
 
                 <Card titulo="Par ou Impar teste" color="#51651">
                     <ParOuImpar numero={20}></ParOuImpar>
